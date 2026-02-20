@@ -27,8 +27,8 @@ jobs:
 
       - name: Prepare EULA
         run: |
-          mkdir -p run-server
-          echo "eula=true" > run-server/eula.txt
+          mkdir -p runs/server
+          echo "eula=true" > runs/server/eula.txt
 
       - name: Run Server
         run: |
